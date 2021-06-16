@@ -1,0 +1,103 @@
+@media only screen and (max-width:1130px){
+    .navbar{
+        display: none;
+    }
+
+    .letgo{ 
+       width: 21px;
+   height: 27px;
+   display: block;
+   font-size: 23px;
+     cursor: pointer;
+
+     
+       display: block;
+   } 
+   .letgo:hover{
+       background-color: peachpuff;
+       color: white;
+   }
+
+   .burgerphone{  
+   position: fixed;
+   background-color: black;
+   width: 100%; z-index: 22;}
+
+   .secondhalf img {
+       width: 56%;
+       border-radius: 116px;
+
+       margin-top: -117px;
+      
+       border: 7px solid white;
+       display: none;
+   }
+   .section {
+       
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: space-evenly;
+       width: 80%;
+       margin: auto;
+       font-family: 'Ubuntu', sans-serif;
+       /* padding: 20px; */
+   }
+   .imgfluid{ border-radius: 56px; width: 109px;}
+   .txtsmall {
+       font-size: 21px;
+       color: rgb(248, 245, 245);
+       padding-top: 15px;
+       font-family: cursive;
+       text-align: center;
+   }
+   .txtbig {
+       font-size: 17px;
+       color: rgb(248, 245, 245);
+       padding-top: 45px;
+       font-family: cursive;
+       text-align: center;
+   }
+   .btn {
+       /* width: 18%; */
+       /* height: 0%; */
+       font-size: 18px;
+       margin-top: 15px;
+       margin-left: 56px;
+       /* padding: 2px; */
+       background: none;
+       border-radius: 2px;
+       color: thistle;
+       cursor: pointer;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+   }
+   .firstsection {
+       overflow: hidden;
+   }
+   .sectionpara{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .sectionpara img{
+       padding-top: 9px;
+   }
+   .scrolltotop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 36px;
+    z-index: 23;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 25px;
+    width: 39px;
+}
+}
