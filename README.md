@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Gauravpathak10
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m Gaurav pathak
+- 👀 I’m interested in web-development
+- 🌱 I’m currently learning react native
+- 💞️ I’m looking to collaborate on website developments
+- 📫 How to reach me on - gauravpathak099@gmail.com
 
 <!---
 Gauravpathak10/Gauravpathak10 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
