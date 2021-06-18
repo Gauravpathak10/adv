@@ -1,0 +1,107 @@
+@media only screen and (max-width:1130px){
+    .navbar{
+        display: none;
+    }
+    
+
+    .letgo{ 
+        width: 28px;
+        height: 33px;
+        display: block;
+        font-size: 27px;
+        cursor: pointer;
+   } 
+   .letgo:hover{
+       background-color: peachpuff;
+       color: white;
+   }
+
+   .burgerphone{  
+   position: fixed;
+   background-color: black;
+   width: 100%; z-index: 22; }
+
+   .secondhalf img {
+       width: 56%;
+       border-radius: 116px;
+
+       margin-top: -117px;
+      
+       border: 7px solid white;
+       display: none;
+   }
+   .section {
+       
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: space-evenly;
+       width: 80%;
+       margin: auto;
+       font-family: 'Ubuntu', sans-serif;
+       /* padding: 20px; */
+   }
+   .imgfluid{ border-radius: 56px; width: 109px;}
+   .txtsmall {
+    font-size: 21px;
+    color: rgb(248, 245, 245);
+    padding-top: 42px;
+    font-family: 'Ubuntu';
+    text-align: center;
+    letter-spacing: 7px;
+   }
+   .txtbig {
+       color: rgb(248, 245, 245);
+       padding-top: 45px;
+       font-family: cursive;
+       text-align: center;
+   }
+   .background {
+    background: rgb(0,0,0,0.7) url(images/judge-hammer-and-blind-lady-justice-statue-new.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+   
+   .btn {
+    
+    font-size: 14px;
+    margin-top: 15px;
+   
+    border-radius: 2px;
+    color: #f71232;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f7f4f4;
+    letter-spacing: 2px;
+   }
+   .firstsection {
+       overflow: hidden;
+   }
+   .sectionpara{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .sectionpara img{
+       padding-top: 9px;
+   }
+   .scrolltotop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 36px;
+    z-index: 23;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 25px;
+    width: 39px;
+}
+}
